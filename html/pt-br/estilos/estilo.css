@@ -1,0 +1,17 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital@1&family=Life+Savers&family=Pacifico&display=swap');
+
+
+:root {
+    --cor01: #00E63D;
+    --cor02: #00E6D9;
+    --cor03: #00E68B;
+    --cor04: #14E600;
+    --cor05: #00AAE6;
+
+    --font-principal: 'Afacad', Arial, helvetica, sans-serif;
+    --font-titulo: 'Pacifico', cursive;
+    --font-destaque: 'Life Savers', Times, 'Times New Roman', serif;
+}
+
