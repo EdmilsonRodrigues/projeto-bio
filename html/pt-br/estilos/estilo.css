@@ -1,7 +1,6 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Afacad:ital@1&family=Life+Savers&family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Life+Savers&family=Ubuntu:wght@500&display=swap');
 
 :root {
     --cor01: #00E63D;
@@ -15,3 +14,85 @@
     --font-destaque: 'Life Savers', Times, 'Times New Roman', serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-principal);
+}
+
+body {
+    background-color: var(--cor01)
+}
+
+header {
+    background-color: var(--cor04);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
+}
+
+header > h1 {
+    font: normal bold 3em var(--font-destaque);
+
+}
+
+header > p {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--cor04);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.185);
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.651);
+    font-size: 1.2em;
+}
+
+nav > a:hover {
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--cor05);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
+    transition-duration: 0.5s;
+}
+
+main {
+    padding: 10px;
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+section > p {
+    text-align: right;
+}
+
+article > h1 {
+    font-family: var(--font-destaque);
+    font-size: 2em;
+    padding: 10px 0px;
+    background-color: var(--cor04);
+    margin-bottom: 10px;
+}
+
+article > h2 {
+    font-family: var(--font-destaque);
+    font-size: 1.5em;
+    padding: 20px 0px;
+}
+
+article > p {
+    line-height: 1.5em;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
