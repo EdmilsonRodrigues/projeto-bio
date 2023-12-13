@@ -52,7 +52,6 @@ nav > a {
     padding: 10px;
     text-decoration: none;
     color: black;
-    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.651);
     font-size: 1.2em;
 }
 
@@ -80,7 +79,7 @@ article > h1 {
     font-family: var(--font-destaque);
     font-size: 2em;
     padding: 10px 0px;
-    background-color: var(--cor04);
+    background-color: var(--cor02);
     margin-bottom: 10px;
 }
 
