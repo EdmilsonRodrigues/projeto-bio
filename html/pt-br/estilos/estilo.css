@@ -34,16 +34,18 @@ header {
 header > h1 {
     font: normal bold 6em var(--font-destaque);
     padding: 15px;
+    width: 600px;
+    margin: auto;
 }
 
 img#logo {
     float: inline-start;
-    width: ;
 }
 
 header > p {
     font-size: 2em;
-    
+    width: 600px;
+    margin: auto;
 }
 
 nav {
