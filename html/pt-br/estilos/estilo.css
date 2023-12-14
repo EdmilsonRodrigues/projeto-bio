@@ -26,19 +26,24 @@ body {
 header {
     background-color: var(--cor03);
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     color: white;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
 }
 
 header > h1 {
-    font: normal bold 5em var(--font-destaque);
+    font: normal bold 6em var(--font-destaque);
+    padding: 15px;
+}
 
+img#logo {
+    float: inline-start;
+    width: ;
 }
 
 header > p {
-    font-size: 1.5em;
-    padding: 10px;
+    font-size: 2em;
+    
 }
 
 nav {
