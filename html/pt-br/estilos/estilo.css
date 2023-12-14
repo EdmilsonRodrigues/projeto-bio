@@ -32,9 +32,9 @@ header {
 }
 
 header > h1 {
-    font: normal bold 6em var(--font-destaque);
+    font: normal bold 4.5em var(--font-destaque);
     padding: 15px;
-    width: 600px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -43,8 +43,8 @@ img#logo {
 }
 
 header > p {
-    font-size: 2em;
-    width: 600px;
+    font-size: 1.5em;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -95,6 +95,7 @@ article > h1 {
     padding: 10px 0px;
     background-color: var(--cor02);
     margin-bottom: 10px;
+    /*color: var(--cor05);*/
 }
 
 article > h2 {
