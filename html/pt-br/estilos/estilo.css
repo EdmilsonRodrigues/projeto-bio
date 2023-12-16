@@ -32,14 +32,17 @@ header {
 }
 
 header > h1 {
-    font: normal bold 4.5em var(--font-destaque);
+    font: normal bold 5em var(--font-destaque);
     padding: 15px;
     max-width: 600px;
     margin: auto;
 }
 
 img#logo {
-    float: inline-start;
+    position: absolute;
+    left: 50%;
+    transform: translate(-250%);
+
 }
 
 header > h2 {
@@ -106,6 +109,10 @@ article > h2 {
     padding: 20px 0px;
 }
 
+article > h3 {
+    padding: 10px;
+}
+
 article > p {
     line-height: 1.5em;
     font-size: 1.3em;
@@ -113,9 +120,25 @@ article > p {
     text-indent: 30px;
 }
 
+a.conteudo {
+    color: black;
+    text-decoration: none;
+}
+
+a.conteudo:any-link {
+    color: var(--cor03);
+}
+
+a.conteudo:any-link:hover {
+    background-color: var(--cor05);
+    color: var(--cor01);
+    transition-duration: 0.5s;
+}
+
 article > ul {
     list-style-position: inside;
-    columns: 2;;
+    columns: 2;
+    line-height: 1.5em;
 }
 
 footer {
