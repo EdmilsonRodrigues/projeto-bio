@@ -10,6 +10,8 @@
     --cor03: #4F732C;
     --cor04: #FAEAB9;
     --cor05: #765337;
+    --cor06: #EABD86;
+    --cor07: #468E20;
 
     --font-principal: 'Ubuntu', Arial, helvetica, sans-serif;
     --font-destaque: 'Life Savers', Times, 'Times New Roman', serif;
@@ -36,7 +38,7 @@ header {
 /* Cabeçalho */
 
 header > h1 {
-    font: normal bold 9vw var(--font-destaque);
+    font: normal bold 5em var(--font-destaque);
     padding: 15px;
     max-width: 600px;
     margin: auto;
@@ -50,7 +52,7 @@ img#logo {
 }
 
 header > h2 {
-    font-size: 2vw;
+    font-size: 1.5em;
     max-width: 600px;
     font-weight: normal;
     margin: auto;
@@ -141,9 +143,11 @@ a.conteudo:any-link {
 }
 
 a.conteudo:any-link:hover {
-    background-color: var(--cor05);
+    text-decoration: underline;
+}
+
+a:any-link:active {
     color: var(--cor01);
-    transition-duration: 0.5s;
 }
 
 a.externo {
@@ -179,14 +183,32 @@ footer {
 }
 
 /* Conteúdos Zoologia class="zoo" */
-.zoologia#geral {
+.conteudos {
     margin: 10px;
     padding: 10px;
-    background-color: var(--cor05);
 }
 
-.zoologia#geral > h1 {
+.conteudos#geral {
+    background-color: var(--cor02);
+}
+
+.conteudos#geral h1 {
     text-align: center;
-    color: var(--cor04);
+    color: var(--cor0);
     font: normal normal 2em var(--font-destaque);
+}
+
+.conteudos#geral h2 {
+    color: var(--cor04);
+    padding: 5px;
+    text-align: center;
+}
+
+.conteudos {
+    background-color: var(--cor05);
+    display: inline-block;
+}
+
+.subconteudos01 {
+
 }
