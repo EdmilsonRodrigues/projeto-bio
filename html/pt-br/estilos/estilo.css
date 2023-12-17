@@ -1,3 +1,5 @@
+/* Regras Gerais*/
+
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Afacad&family=Life+Savers&family=Ubuntu:wght@400&display=swap');
@@ -31,8 +33,10 @@ header {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
 }
 
+/* Cabeçalho */
+
 header > h1 {
-    font: normal bold 5em var(--font-destaque);
+    font: normal bold 9vw var(--font-destaque);
     padding: 15px;
     max-width: 600px;
     margin: auto;
@@ -42,15 +46,17 @@ img#logo {
     position: absolute;
     left: 50%;
     transform: translate(-250%);
-
+    width: 15%;
 }
 
 header > h2 {
-    font-size: 1.5em;
+    font-size: 2vw;
     max-width: 600px;
     font-weight: normal;
     margin: auto;
 }
+
+/* Índice de Navegação*/
 
 nav {
     background-color: var(--cor02);
@@ -75,6 +81,8 @@ nav > a:hover {
     transition-duration: 0.5s;
 }
 
+/*Área Principal*/
+
 main {
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
@@ -86,7 +94,6 @@ section {
     margin: auto;
     /*border: 3px solid var(--cor05);*/
     background-color: var(--cor04);
-
 }
 
 section > p {
@@ -119,7 +126,10 @@ article > p {
     font-size: 1.3em;
     margin-bottom: 10px;
     text-indent: 30px;
+    text-align: justify;
 }
+
+/*Links Internos e Externos*/
 
 a.conteudo {
     color: black;
@@ -136,11 +146,29 @@ a.conteudo:any-link:hover {
     transition-duration: 0.5s;
 }
 
+a.externo {
+    color: var(--cor05);
+    text-decoration: none;
+}
+
+a.externo:hover {
+    text-decoration: underline;
+}
+
+/* Listas */
+
 article > ul {
     list-style-position: inside;
     columns: 2;
     line-height: 1.5em;
 }
+
+article ol {
+    list-style-position: inside;
+    line-height: 1.5em;
+}
+
+/* Rodapé */
 
 footer {
     background-color: var(--cor05);
@@ -148,4 +176,17 @@ footer {
     margin: 0px;
     padding: 4px;
     text-align: center;
+}
+
+/* Conteúdos Zoologia class="zoo" */
+.zoologia#geral {
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--cor05);
+}
+
+.zoologia#geral > h1 {
+    text-align: center;
+    color: var(--cor04);
+    font: normal normal 2em var(--font-destaque);
 }
