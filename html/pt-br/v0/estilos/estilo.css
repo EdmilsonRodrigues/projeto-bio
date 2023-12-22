@@ -161,7 +161,7 @@ a.externo:hover {
 
 /* Listas */
 
-article > ul {
+article ul {
     list-style-position: inside;
     columns: 2;
     line-height: 1.5em;
@@ -170,6 +170,14 @@ article > ul {
 article ol {
     list-style-position: inside;
     line-height: 1.5em;
+}
+
+/*Área em Construção*/
+.construcao {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: var(--cor05);
 }
 
 /* Rodapé */
